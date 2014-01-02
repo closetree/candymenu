@@ -1,3 +1,86 @@
+<style>
+#navigation{
+width:1000px;
+height:40px;
+display:block;
+padding:0;
+margin:0 0 22px 0;
+margin-left:auto;
+margin-right:auto;
+background: #ff6200;
+border-bottom:4px solid #00bd39;
+border-radius:20px;
+box-shadow:1px 1px 4px  #00bd39;
+
+}
+#menu{
+float:left;
+width:100%;
+height:40px;
+display:block;
+padding:0;
+margin:0;
+}
+#menu ul{
+float:left;
+margin:0;
+padding:0;
+}
+#menu li{
+float:left;
+list-style:none;
+line-height:40px;
+margin:0;
+padding:0
+}
+
+#menu li a, #menu li a:link{
+color:#fff;
+display:block;
+margin:0;
+padding:0 10px;
+text-decoration:none;
+font-family:verdana,arial;
+}
+#menu li a:hover, #menu li a:active, #menu .current_page_item a  {
+color:#fff;
+padding:0 10px;
+background:#00bd39;
+border-radius:18px;
+}
+#menu li li a, #menu li li a:link, #menu li li a:visited{
+background: #ff6200;
+
+color: #fff;
+width: 150px;
+margin: 0;
+padding: 0px 10px;
+line-height:30px;
+position: relative;
+border-bottxom:1px solid #00bd39;
+}
+#menu li li a:hover, #menu li li a:active {
+background:#00bd39;;
+border-radius:0px;
+color: #fff;
+}
+#menu li ul{
+z-index:9999;
+position:absolute;
+left:-999em;
+height:auto;
+width:170px;
+margin:0px;
+padding:0px
+}
+#menu li:hover ul, #menu li li:hover ul, #menu li li li:hover ul, #menu li.sfhover ul, #topmenu li li.sfhover ul, #topmenu li li li.sfhover ul{
+left:auto
+}
+#menu li:hover, #menu li.sfhover{
+position:static
+}
+</style>
+
 <div id='navigation'>
 <div id='menu'>
 <ul>
